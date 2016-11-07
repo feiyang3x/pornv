@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addon id="plugin.video.208xx"
+	 name="208xx"
+	 version="0.0.1"
+	 provider-name="Alex">
+    <requires>
+      <import version="2.1.0" addon="xbmc.python"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="208xx.py">
+      <provides>video</provides>
+    </extension>
+	<extension library="lib" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <summary>208xx plugin</summary>
+      <summary>208xx视频插件</summary>
+      <description>208xx plugin, python script</description>
+      <description>208xx视频插件， python脚本</description>
+      <disclaimer>Play Porn Video</disclaimer>
+      <disclaimer>播放色情视频</disclaimer>
+    </extension>
+  </addon>
+  
